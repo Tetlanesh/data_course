@@ -175,3 +175,16 @@ only `this part` will be rendered as code
     be rendered 
     as code
 
+````
+```
+This entire
+thing will
+be rendered 
+as code
+```
+````
+
+    This `entire`
+    thing will
+    be rendered 
+    as code
