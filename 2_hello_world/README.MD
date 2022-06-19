@@ -123,11 +123,15 @@ Comman mode shortcuts:
 
 **text**
 
+___
+
 **Italic**
 
 `*text*`
 
 *text*
+
+___
 
 **Headings**
 
@@ -145,11 +149,15 @@ Comman mode shortcuts:
 
 ### Heading 3
 
+___
+
 **URL**
 
 `[Friendly name](www.google.com)`
 
 [Friendly name](www.google.com)
+
+___
 
 **Image**
 
@@ -160,6 +168,8 @@ Comman mode shortcuts:
 `![Alternate display - in case file not available](/assets/no_such_file.png)`
 
 ![Alternate display - in case file not available](/assets/no_such_file.png)
+
+___
 
 **Ordered list:**
 
@@ -179,6 +189,8 @@ Comman mode shortcuts:
     1. sub text 2 indented by 4 spaces or tab
 1. text 4
 
+___
+
 **Unordered list:**
 
 ```
@@ -195,17 +207,23 @@ Comman mode shortcuts:
     * sub text 1 indented by 4 spaces or tab
 * text 4
 
+___
+
 **Blockquotes**
 
 `> Now these points of data make a beautiful line.`
 
 > Now these points of data make a beautiful line.
 
+___
+
 **Code**
 
 ```Only `this part` will be rendered as code```
 
 Only `this part` will be rendered as code
+
+___
 
 **Code block**
 
@@ -226,6 +244,8 @@ Only `this part` will be rendered as code
     thing will
     be rendered 
     as code
+
+**Code block using backtics**
 
 ````
 ```
