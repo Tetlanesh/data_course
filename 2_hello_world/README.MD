@@ -84,6 +84,33 @@ If you want you can read next part if you want to learn how to more efficienntly
 
 # Extra: common keyboard shortcuts, command mode and edit mode
 
+Lets start with command modes. Noticed that selected cell have outline and a thin colored bar on the left side. that bar is either blue or green - depending on which mode we are in. 
+
+* If it is green we are in **Edit mode**. In Edit mode we can change the content of the cell, add, delete code, select part of code and copy it or paste code into cell, etc.
+* If it is blue we are in **Command mode**. In Command mode we cant interact with the content od the cell but we can interact with entire notebook.
+
+When you are in **Command mode** press `Enter` to enter **Edit mode**. This will change color to green and you can now edit selected cell.
+
+When you are in **Edit mode** press `Esc` to enter **Command mode**. This will change color to blue and you can now access notebook functionality.
+
+Comman mode shortcuts:
+
+|Shortcut|Effect|
+|---|---|
+|Up/Down Arrow|change selected cell to one above or below|
+|`a`|insert new cell above selected cell and selected newly added cell|
+|`b`|insert new cell below selected cell and selected newly added cell|
+|`dd`|delete selected cell|
+|`z`|undo deleting of cell|
+|`m`|change cell to Markdown|
+|`y`|change cell to code|
+|`Ctrl+s`|save notebook|
+|`c`|copy entire cell and its output|
+|`x`|cut entrire cell and its output|
+|`v`|paste copied/cut cell below selected cell|
+|`Ctrl+Enter`|Run selected cell, no new cell is created, selection stays at executed cell|
+|`Shift+Enter`|Run selected cell, new cell is created below if at the end of notebook, selection moves to cell below|
+|`Alt+Enter`|Run selected cell, new cell is created below, selection stays at executed cell|
 
 
 # Extra: Markdown basics
@@ -129,15 +156,15 @@ If you want you can read next part if you want to learn how to more efficienntly
 1. text 1
 1. text 2
 1. text 3
-    1. sub text 1
-    1. sub text 2
+    1. sub text 1 indented by 4 spaces or tab
+    1. sub text 2 indented by 4 spaces or tab
 1. text 4
 ```
 1. text 1
 1. text 2
 1. text 3
-    1. sub text 1
-    1. sub text 2
+    1. sub text 1 indented by 4 spaces or tab
+    1. sub text 2 indented by 4 spaces or tab
 1. text 4
 
 **Unordered list:**
@@ -145,13 +172,13 @@ If you want you can read next part if you want to learn how to more efficienntly
 * text 1
 * text 2
 * text 3
-  * sub text 1
+    * sub text 1 indented by 4 spaces or tab
 * text 4
 ```
 * text 1
 * text 2
 * text 3
-  * sub text 1
+    * sub text 1 indented by 4 spaces or tab
 * text 4
 
 **Blockquotes**
@@ -159,32 +186,40 @@ If you want you can read next part if you want to learn how to more efficienntly
 > Now these points of data make a beautiful line.
 
 **Code**
-```only `this part` will be rendered as code```
-only `this part` will be rendered as code
+```Only `this part` will be rendered as code```
+Only `this part` will be rendered as code
 
 **Code block**
 
 ```
-    This entire
+    use 4 space
+    before each line
+    or a tab
+    so this entire
     thing will
     be rendered 
     as code
 ```
-    This `entire`
+    use 4 space
+    before each line
+    or a tab
+    so this entire
     thing will
     be rendered 
     as code
 
 ````
 ```
-This entire
-thing will
-be rendered 
+Or use tripple backtics
+so this entire
+thing will be rendered 
 as code
 ```
 ````
 
-    This `entire`
-    thing will
-    be rendered 
-    as code
+```
+Or use tripple backtics
+so this entire
+thing will be rendered 
+as code
+```
