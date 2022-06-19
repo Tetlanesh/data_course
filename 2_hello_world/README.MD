@@ -93,7 +93,7 @@ When you are in **Command mode** press `Enter` to enter **Edit mode**. This will
 
 When you are in **Edit mode** press `Esc` to enter **Command mode**. This will change color to blue and you can now access notebook functionality.
 
-Comman mode shortcuts:
+Command mode shortcuts:
 
 |Shortcut|Effect|
 |---|---|
@@ -262,3 +262,10 @@ so this entire
 thing will be rendered 
 as code
 ```
+
+___
+
+**Horizontal line**
+`___`
+
+___
