@@ -142,13 +142,16 @@ Comman mode shortcuts:
 
 **URL**
 `[Friendly name](www.google.com)`
+
 [Friendly name](www.google.com)
 
 **Image**
 `![Alternate display - in case file not available](/assets/calc.png)`
+
 ![Alternate display - in case file not available](/assets/calc.png)
 
 `![Alternate display - in case file not available](/assets/no_such_file.png)`
+
 ![Alternate display - in case file not available](/assets/no_such_file.png)
 
 **Ordered list:**
@@ -160,6 +163,7 @@ Comman mode shortcuts:
     1. sub text 2 indented by 4 spaces or tab
 1. text 4
 ```
+
 1. text 1
 1. text 2
 1. text 3
@@ -168,6 +172,7 @@ Comman mode shortcuts:
 1. text 4
 
 **Unordered list:**
+
 ```
 * text 1
 * text 2
@@ -175,6 +180,7 @@ Comman mode shortcuts:
     * sub text 1 indented by 4 spaces or tab
 * text 4
 ```
+
 * text 1
 * text 2
 * text 3
@@ -183,10 +189,12 @@ Comman mode shortcuts:
 
 **Blockquotes**
 `> Now these points of data make a beautiful line.`
+
 > Now these points of data make a beautiful line.
 
 **Code**
 ```Only `this part` will be rendered as code```
+
 Only `this part` will be rendered as code
 
 **Code block**
@@ -200,6 +208,7 @@ Only `this part` will be rendered as code
     be rendered 
     as code
 ```
+
     use 4 space
     before each line
     or a tab
