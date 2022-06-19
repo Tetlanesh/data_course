@@ -10,8 +10,11 @@ In this chapter we will finally start working with Python. We will cover follwow
 1. Lists
 1. For loops
 1. Dictionaries
-1. Functions
+1. Converting between types
+1. Built-in Functions
+1. Writing functions
 1. Importing modules
+
 
 
 During the course of this module you will also have to solve some excerises yourself to get more familiar with those concepts and learn to use them in new ways. Dont worry if you have problems though. Starting out on this journey can be dauting at first, but we will go trough those excercises toghether if needed. I will also try to provide links to articles or documentation that can help in solving those tasks.
