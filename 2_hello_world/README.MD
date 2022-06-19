@@ -118,14 +118,19 @@ Comman mode shortcuts:
 [There is a great guide](https://www.markdownguide.org/basic-syntax/) on Markdown and I strongly advise to bookmark that page and reference it later, but for now here are few most common formatting options and how to achieve them:
 
 **Bold**
+
 `**text**`
+
 **text**
 
 **Italic**
+
 `*text*`
+
 *text*
 
 **Headings**
+
 ```
 # Heading 1
 
@@ -141,11 +146,13 @@ Comman mode shortcuts:
 ### Heading 3
 
 **URL**
+
 `[Friendly name](www.google.com)`
 
 [Friendly name](www.google.com)
 
 **Image**
+
 `![Alternate display - in case file not available](/assets/calc.png)`
 
 ![Alternate display - in case file not available](/assets/calc.png)
@@ -155,6 +162,7 @@ Comman mode shortcuts:
 ![Alternate display - in case file not available](/assets/no_such_file.png)
 
 **Ordered list:**
+
 ```
 1. text 1
 1. text 2
@@ -188,11 +196,13 @@ Comman mode shortcuts:
 * text 4
 
 **Blockquotes**
+
 `> Now these points of data make a beautiful line.`
 
 > Now these points of data make a beautiful line.
 
 **Code**
+
 ```Only `this part` will be rendered as code```
 
 Only `this part` will be rendered as code
