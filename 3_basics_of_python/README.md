@@ -1,6 +1,6 @@
 # Basics of Python
 
-In this chapter we will finally start working with Python. We will cover follwowing topics:
+In this chapter we will finally start working with Python. We will cover following topics:
 
 1. Numbers and basic arythmetic
 1. Variables
