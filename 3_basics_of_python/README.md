@@ -7,10 +7,10 @@ In this chapter we will finally start working with Python. We will cover followi
 1. Comments
 1. Comparison and If-Else statements
 1. Text
-1. Lists
-1. For loops
-1. Dictionaries
 1. Converting between types
+1. Lists
+1. For/while loops
+1. Dictionaries
 1. Built-in Functions
 1. Writing functions
 1. Importing modules
